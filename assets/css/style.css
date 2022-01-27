@@ -23,6 +23,10 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
     margin: auto;
 }
@@ -33,6 +37,14 @@ nav {
     height: 30px;
     padding: 15px;
     border: 5px solid rgb(48, 46, 46);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
 }
 
 h1 {
@@ -51,7 +63,7 @@ h1 {
 }
 
 ul {
-    margin: 5px; 
+    /* margin: 4px;  */
     list-style-type: none;
     overflow: hidden;
 }
@@ -84,9 +96,9 @@ li a {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 80px;
+    height: auto;
     background-color: rgb(48, 46, 46);
-    width: 100%;
+    /* width: 100%; */
 }
 
 .headerMenuNavigation section {
@@ -234,20 +246,6 @@ main {
 
 /* Large Screens - display row and less pixel image  */
 @media screen and (max-width: 5250px) {
-    .myApplications {
-        /* flex-direction: column; */
-        /* background-color: #8ac4ff; */
-    }
-    .leftColumnTitle {
-        /* flex-direction: column; */
-        /* border-right: 0px; */
-        /* border-bottom: 5px solid rgb(21, 21, 100);  */
-    }
-    .meAndMyWork {
-        /* flex-direction: column; */
-        /* justify-content: space-around; */
-    }
-
     .apps {
         /* width: 100%;     */
     }
@@ -264,7 +262,6 @@ main {
 @media screen and (max-width: 992px) {
     .myApplications {
         flex-direction: column;
-        /* background-color: #8ac4ff; */
     }
     .leftColumnTitle {
         flex-direction: column;
@@ -290,7 +287,6 @@ main {
   @media screen and (max-width: 768px) {
     .myApplications {
         flex-direction: column;
-      /* background-color: #bb8588; */
     }
     .leftColumnTitle {
         flex-direction: column;
@@ -306,7 +302,6 @@ main {
     }
     .portfolio {
         margin: 5%;
-        /* margin-top: 20px; */
     }
 }
 
@@ -314,7 +309,6 @@ main {
 @media screen and (max-width: 576px) {
     .myApplications {
         flex-direction: column;
-      /* background-color: #8ac4ff; */
     }
     
     .leftColumnTitle {
@@ -331,9 +325,8 @@ main {
     }
     .portfolio {
         margin: 3%;
-        /* margin-top: 20px; */
     }
-  }
+}
 
 /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
 /* .myApplications:hover, */
