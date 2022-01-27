@@ -116,12 +116,12 @@ li a {
 
 .headerImageBackGround figure h2 {
     display: inline-block;
-    width: 350px;
+    width: 320px;
     height: auto;
     padding: 10px;
     position: absolute;
     bottom: 50px;
-    right: 25px;
+    right: 20px;
     background-color: var(--darkTurquiose);
     color: rgb(48, 46, 46);
     font-size: 20px;
