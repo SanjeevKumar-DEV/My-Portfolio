@@ -1,6 +1,7 @@
 :root {
     --outer-space: #33393f;
     --bright-turquoise: #2aefcb;
+    --darkTurquiose: #5dd7c1;
     --gin: #e0eae4;
     --heliotrope: #e866ec;
   }
@@ -23,7 +24,7 @@ body {
 
 header {
     width: 100%;
-    display: block;
+    margin: auto;
 }
 
 nav {
@@ -36,7 +37,7 @@ nav {
 
 h1 {
     display: inline-block;
-    color: turquoise;
+    color: var(--darkTurquiose);
     font-size: 30px;
     height: 30px;
     padding:15px;
@@ -61,11 +62,11 @@ li {
   }
   
 li a {
-    color:turquoise;
+    color:var(--darkTurquiose);
     text-align: center;
     text-decoration: none;
     padding: 0px 18px;
-    border-bottom: 2px solid turquoise;
+    border-bottom: 2px solid var(--darkTurquiose);
     /* text-decoration-thickness: 2px; */
   }
   p {
@@ -121,10 +122,10 @@ li a {
     position: absolute;
     bottom: 50px;
     right: 30px;
-    background-color: turquoise;
+    background-color: var(--darkTurquiose);
     color: rgb(48, 46, 46);
     font-size: 20px;
-    border: 5px solid turquoise;
+    border: 5px solid var(--darkTurquiose);
     border-radius: 3px;
     margin: 5px;
     margin-right: 0px;
@@ -145,7 +146,7 @@ main {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 10%;
     /* margin-left: 30px; */
     /* border: 5px solid gray; */
 }
@@ -195,7 +196,7 @@ main {
     justify-content: space-between;
     flex-direction: row;
     margin: 10px;
-    border: 3px solid turquoise;
+    border: 3px solid var(--darkTurquiose);
     width: 46%;
     height: 300px;
     /* min-width: 300px; */
@@ -220,16 +221,44 @@ main {
     position: absolute;
     bottom: 20px;
     left: 0px;
-    background-color: turquoise;
+    background-color: var(--darkTurquiose);
     color: rgb(48, 46, 46);
     font-size: 20px;
-    border: 5px solid turquoise;
+    border: 5px solid var(--darkTurquiose);
     border-left: 5px;
     margin: 5px;
     margin-left: 0px;
     text-align: center;
 }
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+
+/* Large Screens - display row and less pixel image  */
+@media screen and (max-width: 5250px) {
+    .myApplications {
+        /* flex-direction: column; */
+        /* background-color: #8ac4ff; */
+    }
+    .leftColumnTitle {
+        /* flex-direction: column; */
+        /* border-right: 0px; */
+        /* border-bottom: 5px solid rgb(21, 21, 100);  */
+    }
+    .meAndMyWork {
+        /* flex-direction: column; */
+        /* justify-content: space-around; */
+    }
+
+    .apps {
+        /* width: 100%;     */
+    }
+    .portfolio {
+        margin: 25%;
+        margin-top: 20px;
+    }
+
+  }
+
+
 
 /* Tablets - display row and less pixel image  */
 @media screen and (max-width: 992px) {
@@ -249,6 +278,10 @@ main {
 
     .apps {
         width: 100%;    
+    }
+    .portfolio {
+        margin: 7%;
+        margin-top: 20px; 
     }
 
   }
@@ -270,7 +303,11 @@ main {
     }
     .apps {
         width: 100%;
-  }
+    }
+    .portfolio {
+        margin: 5%;
+        /* margin-top: 20px; */
+    }
 }
 
   /* Small smartphones  - display column and less pixel image */
@@ -291,6 +328,10 @@ main {
     }
     .apps {
         width: 100%;    
+    }
+    .portfolio {
+        margin: 3%;
+        /* margin-top: 20px; */
     }
   }
 
