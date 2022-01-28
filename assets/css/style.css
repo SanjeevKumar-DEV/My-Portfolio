@@ -261,13 +261,25 @@ main {
 }
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
-/* Large Screens - display row and less pixel image  */
+/* Super Large Screens - display row and less pixel image  */
 @media screen and (max-width: 5250px) {
     .apps {
         /* width: 100%;     */
     }
     .portfolio {
         margin: 25%;
+        margin-top: 20px;
+    }
+
+  }
+
+  /* Large Screens - display row and less pixel image  */
+@media screen and (max-width: 2048px) {
+    .apps {
+        /* width: 100%;     */
+    }
+    .portfolio {
+        margin: 14%;
         margin-top: 20px;
     }
 
@@ -294,7 +306,7 @@ main {
         width: 100%;    
     }
     .portfolio {
-        margin: 7%;
+        margin: 15%;
         margin-top: 20px; 
     }
 
