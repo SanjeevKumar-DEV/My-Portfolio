@@ -332,6 +332,11 @@ main {
     .portfolio {
         margin: 5%;
     }
+    .contactMe nav ul {
+        flex-direction: column;
+        /* align-items: ; */
+        /* justify-content: space-between; */
+    }
 }
 
   /* Small smartphones  - display column and less pixel image */
@@ -355,6 +360,12 @@ main {
     .portfolio {
         margin: 3%;
     }
+    .contactMe nav ul {
+        flex-direction: column;
+        /* align-items: ; */
+        /* justify-content: space-between; */
+    }
+    
 }
 
 /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
@@ -403,5 +414,6 @@ main {
     text-align: center;
     text-decoration: none;
     padding: 0px 20px;
+    margin: 10px;
     border-bottom: 3px solid rgb(21, 21, 100);
   }
