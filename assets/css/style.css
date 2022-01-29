@@ -370,11 +370,6 @@ main {
         /* color: rgb(21, 21, 100); */
         white-space: nowrap;
     }
-    .contactMe nav ul {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
 }
 
   /* Small smartphones  - display column and less pixel image */
@@ -405,12 +400,6 @@ main {
         /* font-size: 45px; */
         /* color: rgb(21, 21, 100); */
         white-space: nowrap;
-    }
-    .contactMe nav ul {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        /* justify-content: space-between; */
     }
     
 }
@@ -449,7 +438,7 @@ main {
     /* width: 100%; */
 }
 
-.contactMe li {
+ .contactMe li {
     display: inline-block;
     border: 3px solid white;
     /* border-bottom: 3px solid rgb(21, 21, 100); */
@@ -458,9 +447,4 @@ main {
   
 .contactMe li a {
     color:black;
-    text-align: center;
-    text-decoration: none;
-    padding: 0px 20px;
-    margin: 10px;
-    border-bottom: 3px solid rgb(21, 21, 100);
   }
