@@ -1,19 +1,32 @@
-# Homework-Week3-MyPortfolio
-Home work week 3 - My portfolio for future employers
+# My-Portfolio
+My portfolio for future employers
 
 Important Links:
-a. Link to Repository: https://github.com/SanjeevKumar-DEV/Homework-Week3-MyPortfolio
-b. Link to deployed application:https://sanjeevkumar-dev.github.io/Homework-Week3-MyPortfolio/
+a. Link to Repository: https://github.com/SanjeevKumar-DEV/My-Portfolio
+b. Link to deployed application:https://sanjeevkumar-dev.github.io/My-Portfolio/
+
+--My Work as developer as has been showcased
+--Links to repo and application has been published
+--My resume and short desc about me has been published
+--My contact details through emails and phone number has been published
+--My linkedIn profile and github profile links has been attached
+
+Technology : CSS, HTML
 
 My Portfolio Website
-
-![image](https://user-images.githubusercontent.com/93074312/144735444-d8f4cfcb-bc13-43ea-88f5-8df3de99d08b.png)
+![image](https://user-images.githubusercontent.com/93074312/151640370-adaf3c19-cf7e-4e6b-8ce4-3cfec3f6425e.png)
 
 My Web Application
 
-![image](https://user-images.githubusercontent.com/93074312/144735462-67d6d2e6-b8b8-48a2-9e5c-3e5158085781.png)
+![image](https://user-images.githubusercontent.com/93074312/151640406-6713aa05-e72c-4666-bc21-69df7be757ea.png)
 
 My Contact
 
-![image](https://user-images.githubusercontent.com/93074312/144735471-05133298-6d8f-494c-b165-a5e0dfcf35c4.png)
+![image](https://user-images.githubusercontent.com/93074312/151640443-2449ebdd-7a41-4cb7-99ab-07bf1cc83a0b.png)
 
+![image](https://user-images.githubusercontent.com/93074312/151640474-62b72a60-7fcc-4445-91d1-8f71316166f5.png)
+
+
+Important Links:
+a. Link to Repository: https://github.com/SanjeevKumar-DEV/My-Portfolio
+b. Link to deployed application:https://sanjeevkumar-dev.github.io/My-Portfolio/
