@@ -202,6 +202,7 @@ main {
 .leftColumnTitle h3 {
     font-size: 45px;
     color: rgb(21, 21, 100);
+    white-space: nowrap;
 }
 .rightColumnTitle {
     width: 70%;
@@ -254,8 +255,8 @@ main {
     color: rgb(48, 46, 46);
     font-size: 20px;
     border: 5px solid var(--darkTurquiose);
-    border-left: 5px;
-    margin: 5px;
+    /* border-left: 5px; */
+    /* margin: 5px; */
     margin-left: 0px;
     text-align: center;
 }
@@ -285,6 +286,23 @@ main {
 
   }
 
+  /* Big Screens - display row and less pixel image  */
+@media screen and (max-width: 1408px) {
+    .apps {
+        /* width: 100%;     */
+    }
+    .portfolio {
+        margin: 14%;
+        margin-top: 20px;
+    }
+    .leftColumnTitle h3 {
+        /* font-size: 45px; */
+        /* color: rgb(21, 21, 100); */
+        white-space: pre-wrap;
+    }
+
+  }
+
 
 
 /* Tablets - display row and less pixel image  */
@@ -295,7 +313,10 @@ main {
     .leftColumnTitle {
         flex-direction: column;
         border-right: 0px;
-        border-bottom: 5px solid rgb(21, 21, 100); 
+        align-items: center;
+        justify-content: space-around;
+        /* white-space:initial; */
+        /* border-bottom: 5px solid rgb(21, 21, 100);  */
     }
     .meAndMyWork {
         flex-direction: column;
@@ -310,6 +331,11 @@ main {
         margin: 15%;
         margin-top: 20px; 
     }
+    .leftColumnTitle h3 {
+        /* font-size: 45px; */
+        /* color: rgb(21, 21, 100); */
+        white-space: nowrap;
+    }
 
   }
   
@@ -321,7 +347,9 @@ main {
     .leftColumnTitle {
         flex-direction: column;
         border-right: 0px;
-        border-bottom: 5px solid rgb(21, 21, 100);
+        align-items: center;
+        justify-content: space-around;
+        /* border-bottom: 5px solid rgb(21, 21, 100); */
     }
     .meAndMyWork {
         flex-direction: column;
@@ -333,6 +361,11 @@ main {
     }
     .portfolio {
         margin: 5%;
+    }
+    .leftColumnTitle h3 {
+        /* font-size: 45px; */
+        /* color: rgb(21, 21, 100); */
+        white-space: nowrap;
     }
     .contactMe nav ul {
         flex-direction: column;
@@ -350,7 +383,9 @@ main {
     .leftColumnTitle {
         flex-direction: column;
         border-right: 0px;
-        border-bottom: 5px solid rgb(21, 21, 100);
+        align-items: center;
+        justify-content: space-around;
+        /* border-bottom: 5px solid rgb(21, 21, 100); */
     }
     .meAndMyWork {
         flex-direction: column;
@@ -363,9 +398,15 @@ main {
     .portfolio {
         margin: 3%;
     }
+    .leftColumnTitle h3 {
+        /* font-size: 45px; */
+        /* color: rgb(21, 21, 100); */
+        white-space: nowrap;
+    }
     .contactMe nav ul {
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
         /* justify-content: space-between; */
     }
     
