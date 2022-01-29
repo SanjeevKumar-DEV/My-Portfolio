@@ -335,7 +335,7 @@ main {
         margin-top: 20px; 
     }
     .leftColumnTitle h3 {
-        /* font-size: 45px; */
+        font-size: 40px;
         /* color: rgb(21, 21, 100); */
         white-space: nowrap;
     }
@@ -366,7 +366,7 @@ main {
         margin: 5%;
     }
     .leftColumnTitle h3 {
-        /* font-size: 45px; */
+        font-size: 35px;
         /* color: rgb(21, 21, 100); */
         white-space: nowrap;
     }
@@ -397,11 +397,13 @@ main {
         margin: 3%;
     }
     .leftColumnTitle h3 {
-        /* font-size: 45px; */
+        font-size: 30px;
         /* color: rgb(21, 21, 100); */
         white-space: nowrap;
     }
-    
+    p {
+        text-align: center;
+    }
 }
 
 /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
